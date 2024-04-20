@@ -1,0 +1,18 @@
+.header{
+    background-image: url(./img/bgc-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1038px;
+    max-height: 1038px;
+    height: 100%;
+}
+
+.header-title{
+    color: #ffffff;
+    max-width: 570px;
+    width: 100%;
+    font-family: Garamond;
+    font-size: 72px;
+    font-weight: 700;
+    margin: 260px auto;
+}
