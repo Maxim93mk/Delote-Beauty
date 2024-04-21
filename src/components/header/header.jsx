@@ -1,6 +1,6 @@
 import './header.css'
 import React from 'react';
-import Navigation from '../../../components/navigation/navigation'
+import Navigation from '../navigation/navigation'
 import mouse_icon from './img/mouse_icon.svg'
 
 
