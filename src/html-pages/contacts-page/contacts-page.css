@@ -1,0 +1,15 @@
+.contacts-header{
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 168px;
+}
+
+.contacts-map{
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
