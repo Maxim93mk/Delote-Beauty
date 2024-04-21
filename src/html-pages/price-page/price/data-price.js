@@ -1,11 +1,24 @@
-import price from './img/price.png';
-
-const dataMasters =  [
+const dataPrice =  [
     {
-        name: 'Елена Васильевна',
-        specialization: 'Визажист',
-        foto: price
+        nameService: 'Женская укладка',
+        additionalService: '+ обработка кончинков волос',
+        priceService: '1000₽',
+    },
+    {
+        nameService: 'Женская укладка',
+        additionalService: '+ обработка кончинков волос',
+        priceService: '1000₽',
+    },
+    {
+        nameService: 'Женская укладка',
+        additionalService: '+ обработка кончинков волос',
+        priceService: '1000₽',
+    },
+    {
+        nameService: 'Женская укладка',
+        additionalService: '+ обработка кончинков волос',
+        priceService: '1000₽',
     },
 ];
 
-export default dataMasters;
+export default dataPrice;
