@@ -3,7 +3,7 @@ import React from 'react';
 import omega_icon from '../navigation/img/omega-icon.svg';
 import inst_icon from './img/instagram-icon_grey.svg';
 
-function Header() {
+function Footer() {
     return (
         <>
             <footer className='footer'>
@@ -34,4 +34,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Footer;
