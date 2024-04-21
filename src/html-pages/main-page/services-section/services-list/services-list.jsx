@@ -12,9 +12,6 @@ function ServicesList() {
                 <img src={elem.img} alt={elem.name}></img>
                 <figcaption className='service-item-descr'>{elem.name}</figcaption>
             </figure>
-            <div className='brends'>
-                <img className='brand-item' />
-            </div>
         </div>
 
     });
