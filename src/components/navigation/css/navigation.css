@@ -4,8 +4,10 @@
     justify-content: center;
     gap:80px;
     padding: 39px;
-    margin: 0, auto;
+    margin: 0 auto;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    max-width: 1296px;
+    width: 100%;
 }
 
 .link{

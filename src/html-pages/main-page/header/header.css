@@ -16,3 +16,18 @@
     font-weight: 700;
     margin: 260px auto;
 }
+
+.scroll-down-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.scroll-down-group__img-descr{
+    color: #ffffff;
+    font-family: Garamond;
+    font-size: 18px;
+    font-weight: 700;
+}
