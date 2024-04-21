@@ -29,3 +29,12 @@
     color: rgb(205, 170, 125);
     border-bottom: 1px solid rgb(205, 170, 125);
 }
+
+.cardsFoto{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 416px);
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}

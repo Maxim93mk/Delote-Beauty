@@ -1,7 +1,12 @@
 import './works-section.css'
 import React from 'react';
+import data from './data-works';
+
 
 function WorksSection() {
+    let cardWorks = data.map((elem, index) => {
+        return <img key={index} src={elem.work} alt={elem.descr} />
+    });
 
     return (
         <>
@@ -13,6 +18,7 @@ function WorksSection() {
                     <li><a href="#" className='works-nav-links'>Маникюр</a></li>
                     <li><a href="#" className='works-nav-links'>Педикюр</a></li>
                 </ul>
+                <div className='cardsFoto'>{cardWorks}</div>
             </section>
         </>
     );
