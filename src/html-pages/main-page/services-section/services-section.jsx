@@ -1,7 +1,7 @@
 import './services-section.css'
 import React from 'react';
 import quote_icon from './img/quote_icon.svg'
-
+import ServicesList from './services-list/services-list';
 function ServicesSection() {
 
 
@@ -15,7 +15,7 @@ function ServicesSection() {
                         <p>Et elementum at nulla venenatis, faucibus integer. Auctor neque eros, viverra rutrum. Fames ultrices condimentum tortor nec penatibus. Velit imperdiet sapien fringilla vestibulum sit fames.</p>
                     </div>
                 </div>
-
+                <ServicesList />
 
             </section>
         </>
