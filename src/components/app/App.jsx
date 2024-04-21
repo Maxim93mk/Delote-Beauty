@@ -11,9 +11,9 @@ function App() {
     <>
       <div className='container'>
         <MainPage />
-        {/* <TeamPage/>
+        <TeamPage/>
         <PricePage />
-        <Contacts /> */}
+        <Contacts />
       </div>
 
     </>
