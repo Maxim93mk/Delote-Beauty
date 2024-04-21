@@ -1,7 +1,7 @@
 .services-cards{
     display: grid;
     grid-template-columns: repeat(3, 396px);
-    gap: 44px 60px;
+    gap: 120px 44px;
     margin-top: 60px;
     align-items: center;
     justify-content: center;
