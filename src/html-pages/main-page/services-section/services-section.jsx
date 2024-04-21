@@ -2,8 +2,9 @@ import './services-section.css'
 import React from 'react';
 import quote_icon from './img/quote_icon.svg'
 import ServicesList from './services-list/services-list';
-function ServicesSection() {
+import BrendList from './brends-list/brend-list';
 
+function ServicesSection() {
 
     return (
         <>
@@ -16,7 +17,7 @@ function ServicesSection() {
                     </div>
                 </div>
                 <ServicesList />
-
+                <BrendList />
             </section>
         </>
     );
