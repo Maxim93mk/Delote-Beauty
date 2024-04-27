@@ -1,19 +1,20 @@
-import './App.css';
 import React from 'react';
-import MainPage from '../../html-pages/main-page/main-page';
-import TeamPage from '../../html-pages/team-page/team-page';
-import PricePage from '../../html-pages/price-page/price-page';
-import Contacts from '../../html-pages/contacts-page/contacts-page';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { MainPage, TeamPage, PricePage, Contacts } from '../../pages';
 
 function App() {
 
   return (
     <>
       <div className='container'>
-        <MainPage />
-        <TeamPage/>
-        <PricePage />
-        <Contacts />
+        <Router>
+          <Routes>
+            <Route path='/' element={<MainPage />} />
+            <Route path='/team' element={<TeamPage />} />
+            <Route path='/price' element={<PricePage />} />
+            <Route path='/contacts' element={<Contacts />} />
+          </Routes>
+        </Router>
       </div>
 
     </>

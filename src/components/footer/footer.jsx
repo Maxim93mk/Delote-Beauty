@@ -1,14 +1,12 @@
 import './footer.css'
 import React from 'react';
-import omega_icon from '../navigation/img/omega-icon.svg';
-import inst_icon from './img/instagram-icon_grey.svg';
 
 function Footer() {
     return (
         <>
             <footer className='footer'>
                 <div className='footer-list'>
-                    <img src={omega_icon} alt='omega_icon'></img>
+                    <img src='/img/icons/omega-icon.svg' alt='omega_icon'></img>
                     <div className='listing'>
                         <ul className='list'>
                             <li className='list-title'>Контакты</li>
@@ -23,7 +21,7 @@ function Footer() {
                         </ul>
                         <ul className='list'>
                             <li className='list-title'>Мы в Instagram</li>
-                            <li className='list-item'><a href="#"><img src={inst_icon} alt='inst_icon' /></a></li>
+                            <li className='list-item'><a href="#"><img src={'/img/icons/instagram-icon_grey.svg'} alt='inst_icon' /></a></li>
                         </ul>
                     </div>
                 </div>

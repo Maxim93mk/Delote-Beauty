@@ -5,7 +5,7 @@ import data from './data-works';
 
 function WorksSection() {
     let cardWorks = data.map((elem, index) => {
-        return <img key={index} src={elem.work} alt={elem.descr} />
+        return <img key={index} src={elem.img} alt={elem.descr} />
     });
 
     return (
