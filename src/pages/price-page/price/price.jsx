@@ -1,7 +1,6 @@
 import React from 'react';
 import './price.css'
 import dataPrice from './data-price';
-import fotoPrice from '../img/price.png'
 
 function Price() {
 
@@ -21,15 +20,15 @@ function Price() {
                 <h1 className='title-price'>Цены на услуги</h1>
                 <section className='price-list'>
                     <div className='price-list-foto'>
-                        <img src={fotoPrice} alt='fotoPrice'></img>
+                        <img src={'/img/price.png'} alt='fotoPrice'></img>
                         <div className='list'>{list}</div>
                     </div>
                     <div className='price-list-foto'>
                         <div className='list'>{list}</div>
-                        <img src={fotoPrice} alt='fotoPrice'></img>
+                        <img src={'/img/price.png'} alt='fotoPrice'></img>
                     </div>
                     <div className='price-list-foto'>
-                        <img src={fotoPrice} alt='fotoPrice'></img>
+                        <img src={'/img/price.png'} alt='fotoPrice'></img>
                         <div className='list'>{list}</div>
                     </div>
                 </section>

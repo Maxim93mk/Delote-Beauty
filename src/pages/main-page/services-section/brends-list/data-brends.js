@@ -1,26 +1,21 @@
-import kevin from './img/kevin.svg';
-import oribe from './img/oribe.svg';
-import alterna from './img/alterna.svg';
-import copolla from './img/coppola.svg';
-
-const dataBrends =  [
+const dataBrends = [
     {
-        name: kevin,
+        img: '/img/icons/kevin.svg',
         descr: 'kevin'
     },
 
     {
-        name: oribe,
+        img: '/img/icons/oribe.svg',
         descr: 'oribe'
     },
 
     {
-        name: alterna,
+        img: '/img/icons/alterna.svg',
         descr: 'alterna'
     },
 
     {
-        name: copolla,
+        img: '/img/icons/coppola.svg',
         descr: 'copolla'
     },
 ];

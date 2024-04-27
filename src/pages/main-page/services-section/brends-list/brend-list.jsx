@@ -5,7 +5,7 @@ import data from './data-brends'
 function BrendList() {
 
     let brends = data.map((elem, index) => {
-        return <img key = {index} src={elem.name} alt={elem.descr}></img>
+        return <img key = {index} src={elem.img} alt={elem.descr}></img>
     });
 
     return (

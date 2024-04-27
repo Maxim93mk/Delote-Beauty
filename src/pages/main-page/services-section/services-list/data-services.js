@@ -1,39 +1,32 @@
-import HairdressingServices from './img/HairdressingServices.png';
-import Manicure from './img/Manicure.png';
-import Pedicure from './img/Pedicure.png';
-import Cosmetology from './img/Cosmetology.png';
-import BodyAestheticist from './img/BodyAestheticist.png';
-import MakeUp from './img/MakeUp.png'
-
-const dataServices =  [
+const dataServices = [
     {
         name: 'Парикмахерские услуги',
-        img: HairdressingServices,
+        img: '/img/HairdressingServices.png'
     },
 
     {
         name: 'Маникюр',
-        img: Manicure,
+        img: '/img/Manicure.png'
     },
 
     {
         name: 'Педикюр',
-        img: Pedicure,
+        img: '/img/Pedicure.png'
     },
 
     {
         name: 'Косметология',
-        img: Cosmetology,
+        img: '/img/Cosmetology.png'
     },
 
     {
         name: 'Эстетист по телу',
-        img: BodyAestheticist,
+        img: '/img/BodyAestheticist.png'
     },
 
     {
         name: 'Визаж',
-        img: MakeUp,
+        img: '/img/MakeUp.png'
     },
 ];
 
