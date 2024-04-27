@@ -1,9 +1,6 @@
 import './App.css';
 import React from 'react';
-import MainPage from '../../html-pages/main-page/main-page';
-import TeamPage from '../../html-pages/team-page/team-page';
-import PricePage from '../../html-pages/price-page/price-page';
-import Contacts from '../../html-pages/contacts-page/contacts-page';
+import {MainPage, TeamPage, PricePage, Contacts} from '../../pages';
 
 function App() {
 
