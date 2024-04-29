@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { MainPage, TeamPage, PricePage, Contacts } from '../../pages';
+import { MainPage, TeamPage, PricePage, Contacts, NotFoundPage } from '../../pages';
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
             <Route path='/team' element={<TeamPage />} />
             <Route path='/price' element={<PricePage />} />
             <Route path='/contacts' element={<Contacts />} />
+            <Route path='*' element={<NotFoundPage />} />
           </Routes>
         </Router>
       </div>

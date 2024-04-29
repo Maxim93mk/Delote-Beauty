@@ -1,5 +1,6 @@
 import './footer.css'
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -21,7 +22,7 @@ function Footer() {
                         </ul>
                         <ul className='list'>
                             <li className='list-title'>Мы в Instagram</li>
-                            <li className='list-item'><a href="#"><img src={'/img/icons/instagram-icon_grey.svg'} alt='inst_icon' /></a></li>
+                            <li className='list-item'><Link to={'/not-found'}><img src={'/img/icons/instagram-icon_grey.svg'} alt='inst_icon' /></Link></li>
                         </ul>
                     </div>
                 </div>
