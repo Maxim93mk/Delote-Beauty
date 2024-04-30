@@ -1,10 +1,9 @@
 import React from 'react';
 import './price.css'
-import dataPrice from './data-price';
 
-function Price() {
+function Price({ PriceList }) {
 
-    let list = dataPrice.map((elem, index) => {
+    let list = PriceList.map((elem, index) => {
         return <div key={index} className='data-price-list'>
             <div className='service-price'>
                 <p className='service'>{elem.nameService}</p>
@@ -14,6 +13,14 @@ function Price() {
         </div>
     })
 
+    const getPriceBlock = (list, min, max) => {
+        return list.filter((elem, index) => {
+            if (index >= min && index <= max) {
+                return elem;
+            }
+        });
+    }
+
     return (
         <>
             <main>
@@ -21,15 +28,15 @@ function Price() {
                 <section className='price-list'>
                     <div className='price-list-foto'>
                         <img src={'/img/price.png'} alt='fotoPrice'></img>
-                        <div className='list'>{list}</div>
+                        <div className='list'>{getPriceBlock(list, 0, 3)}</div>
                     </div>
                     <div className='price-list-foto'>
-                        <div className='list'>{list}</div>
+                        <div className='list'>{getPriceBlock(list, 4, 7)}</div>
                         <img src={'/img/price.png'} alt='fotoPrice'></img>
                     </div>
                     <div className='price-list-foto'>
                         <img src={'/img/price.png'} alt='fotoPrice'></img>
-                        <div className='list'>{list}</div>
+                        <div className='list'>{getPriceBlock(list, 8, 11)}</div>
                     </div>
                 </section>
             </main>
