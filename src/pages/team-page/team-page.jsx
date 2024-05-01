@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../../components/navigation/navigation';
+import Header from '../../components/header/header';
 import Masters from './team/team';
 import Footer from '../../components/footer/footer';
 
@@ -8,9 +8,7 @@ function TeamPage() {
 
   return (
     <>
-      <header>
-        <Navigation />
-      </header>
+      <Header />
       <Masters />
       <Footer />
     </>

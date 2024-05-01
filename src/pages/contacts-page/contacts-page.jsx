@@ -1,6 +1,6 @@
 import React from 'react';
 import './contacts-page.css'
-import Navigation from '../../components/navigation/navigation';
+import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 
 function Contacts() {
@@ -8,9 +8,7 @@ function Contacts() {
 
   return (
     <>
-      <header>
-        <Navigation />
-      </header>
+      <Header />
       <main>
         <h1 className='contacts-header'>Контакты</h1>
         <div className='contacts-map'>

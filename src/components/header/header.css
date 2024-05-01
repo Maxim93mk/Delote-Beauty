@@ -1,33 +1,24 @@
-.header{
-    background-image: url(../../../public/img/bgc-header.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 1038px;
-    max-height: 1038px;
-    height: 100%;
-}
-
-.header-title{
-    color: #ffffff;
-    max-width: 514px;
-    width: 100%;
-    font-family: Garamond;
-    font-size: 72px;
-    font-weight: 700;
-    margin: 260px auto;
-}
-
-.scroll-down-group{
+.navigation{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap:80px;
+    padding: 39px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    max-width: 1296px;
+    width: 100%;
+}
+
+.link{
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight: 600;
     text-decoration: none;
 }
 
-.scroll-down-group__img-descr{
-    color: #ffffff;
-    font-family: Garamond;
-    font-size: 18px;
-    font-weight: 700;
+.link:hover{
+    color: rgb(205, 170, 125);
+    border-bottom: 1px solid rgb(205, 170, 125);
 }

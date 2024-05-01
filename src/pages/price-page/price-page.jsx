@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../../components/navigation/navigation';
+ import Header from '../../components/header/header';
 import Price from './price/price';
 import Footer from '../../components/footer/footer';
 import { useEffect, useState } from 'react';
@@ -19,9 +19,7 @@ function PricePage() {
 
   return (
     <>
-      <header>
-        <Navigation />
-      </header>
+        <Header />
       <Price  PriceList={PriceList}/>
       <Footer />
     </>
