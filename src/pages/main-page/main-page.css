@@ -5,6 +5,9 @@
     min-height: 1038px;
     max-height: 1038px;
     height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
 }
 
 .header-title{
