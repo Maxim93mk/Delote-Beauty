@@ -7,8 +7,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-     gap: 25px;
-     height: 100vh;
+    gap: 25px;
+    height: 100vh;
 }
 
 .not-title, .not-title-descr, .not-descr{
@@ -17,6 +17,7 @@
     font-size: 250px;
     font-weight: 600;
     text-decoration: none;
+    text-align: center;
 }
 
 .not-title-descr{
@@ -25,5 +26,4 @@
 
 .not-descr{
     font-size: 18px;
-    text-align: center;
 }
