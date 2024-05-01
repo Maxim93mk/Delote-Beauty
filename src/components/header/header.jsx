@@ -1,24 +1,34 @@
-import './header.css'
+import './header.css';
+import { Link } from 'react-router-dom';
 import React from 'react';
-import Navigation from '../navigation/navigation'
-
 
 function Header() {
 
 
-    return (
-        <>
-            <header className='header'>
-                <Navigation />
-                <h1 className='header-title'>Салон красоты «Delote-Beauty» на Крестовском</h1>
-                <a href='#' className='scroll-down-group'>
-                    <img src="/img/icons/mouse_icon.svg" alt="mouse_icon" />
-                    <p className='scroll-down-group__img-descr'>Прокрутите вниз</p>
-                </a>
-            </header>
 
-        </>
-    );
+  return (
+    <>
+      <header className='header'>
+        <nav className='navigation'>
+          <Link to="/not-found">
+            <img src='/img/icons/instagram-icon.svg' alt="instagram_icon" />
+          </Link>
+          <Link to="/" className='link'>Главная</Link>
+          <Link to="/team" className='link'>Мастера</Link>
+          <Link to='/not-found' className='link'>Косметика</Link>
+          <Link to="/">
+            <img src='/img/icons/omega-icon.svg' alt="omega_icon" />
+          </Link>
+          <Link to="/price" className='link'>Акции</Link>
+          <Link to="/not-found" className='link'>Отзывы</Link>
+          <Link to="/contacts" className='link'>Контакты</Link>
+          <Link to="/not-found">
+            <img src='/img/icons/burger-icon.svg' alt="burger_icon" />
+          </Link>
+        </nav>
+      </header>
+    </>
+  );
 }
 
 export default Header;
