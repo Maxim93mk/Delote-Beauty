@@ -21,7 +21,6 @@ function PricePage() {
   const firstPriceIndex = lastPriceIndex - pricePage;
   const currentPrice = PriceList.slice(firstPriceIndex, lastPriceIndex);
   const paginate = pageNumber => setCurrentPage(pageNumber);
-  console.log(currentPrice);
 
   let list = currentPrice.map((elem, index) => {
     return <div key={index} className='data-price-list'>
@@ -33,15 +32,6 @@ function PricePage() {
     </div>
   });
 
-  const getPriceBlock = (list, min, max) => {
-    return list.filter((elem, index) => {
-      if (index >= min && index <= max) {
-        return elem;
-      }
-    });
-
-  }
-
   return (
     <>
       <main>
@@ -51,18 +41,9 @@ function PricePage() {
             <img src={'/img/price.png'} alt='fotoPrice'></img>
             <div className='list'>{list}</div>
           </div>
-          <Pagination pricePage={pricePage} total = {PriceList.length} paginate = {paginate}/>
-          {/* <div className='price-list-foto'>
-            <div className='list'>{getPriceBlock(list, 4, 7)}</div>
-            <img src={'/img/price.png'} alt='fotoPrice'></img>
-          </div>
-          <div className='price-list-foto'>
-            <img src={'/img/price.png'} alt='fotoPrice'></img>
-            <div className='list'>{getPriceBlock(list, 8, 11)}</div>
-          </div> */}
+          <Pagination pricePage={pricePage} total={PriceList.length} paginate={paginate} />
         </section>
       </main>
-
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './pagination.css';
 
 function Pagination({ pricePage, total, paginate }) {
     
@@ -15,7 +16,7 @@ function Pagination({ pricePage, total, paginate }) {
                 {
                     pageNumber.map(elem =>{
                      return   <li className='page-item' key={elem}>
-                            <button className='page-link' onClick={()=>paginate(elem)}>{elem}</button>
+                            <button className='page-btn' onClick={()=>paginate(elem)}>{elem}</button>
                         </li>
                     })
                 }
