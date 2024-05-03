@@ -3,6 +3,8 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import './price-page.css';
 import Pagination from '../../components/pagination/pagination';
+
+
 function PricePage() {
   const [PriceList, SetPriceList] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
